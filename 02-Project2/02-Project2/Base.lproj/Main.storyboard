@@ -16,20 +16,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSZ-Hk-xNP">
-                                <rect key="frame" x="95" y="228" width="224" height="114"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSZ-Hk-xNP">
+                                <rect key="frame" x="95" y="244" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EOB-Wz-vi9"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCo-09-MEP">
-                                <rect key="frame" x="95" y="372" width="224" height="114"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCo-09-MEP">
+                                <rect key="frame" x="95" y="388" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZGw-86-SV6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D7I-r0-dui">
                                 <rect key="frame" x="95" y="100" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t6R-BE-WcP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -37,7 +46,7 @@
                         <constraints>
                             <constraint firstItem="D7I-r0-dui" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="7WZ-cF-lZC"/>
                             <constraint firstItem="wCo-09-MEP" firstAttribute="leading" secondItem="iSZ-Hk-xNP" secondAttribute="trailing" constant="-224" id="9el-LM-8rq"/>
-                            <constraint firstItem="iSZ-Hk-xNP" firstAttribute="top" secondItem="D7I-r0-dui" secondAttribute="bottom" constant="14" id="Kzw-1n-z1V"/>
+                            <constraint firstItem="iSZ-Hk-xNP" firstAttribute="top" secondItem="D7I-r0-dui" secondAttribute="bottom" constant="30" id="Kzw-1n-z1V"/>
                             <constraint firstItem="D7I-r0-dui" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="Yne-VU-unn"/>
                             <constraint firstItem="wCo-09-MEP" firstAttribute="top" secondItem="iSZ-Hk-xNP" secondAttribute="bottom" constant="30" id="bCL-Pn-KOs"/>
                             <constraint firstItem="iSZ-Hk-xNP" firstAttribute="centerX" secondItem="D7I-r0-dui" secondAttribute="centerX" id="me6-Kn-PAG"/>
