@@ -13,6 +13,7 @@
 		AB0D1A1F28DDCB58000701A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D1A1D28DDCB58000701A1 /* Main.storyboard */; };
 		AB0D1A2128DDCB59000701A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0D1A2028DDCB59000701A1 /* Assets.xcassets */; };
 		AB0D1A2428DDCB59000701A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0D1A2228DDCB59000701A1 /* LaunchScreen.storyboard */; };
+		AB65D47228E1C63B00D70784 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB65D47128E1C63B00D70784 /* DetailViewController.swift */; };
 		ABF1841728DDD42000A64120 /* spain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF183FF28DDD42000A64120 /* spain@2x.png */; };
 		ABF1841828DDD42000A64120 /* nigeria@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF1840028DDD42000A64120 /* nigeria@2x.png */; };
 		ABF1841928DDD42000A64120 /* nigeria@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF1840128DDD42000A64120 /* nigeria@3x.png */; };
@@ -48,6 +49,7 @@
 		AB0D1A2028DDCB59000701A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB0D1A2328DDCB59000701A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB0D1A2528DDCB59000701A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB65D47128E1C63B00D70784 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		ABF183FF28DDD42000A64120 /* spain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spain@2x.png"; sourceTree = "<group>"; };
 		ABF1840028DDD42000A64120 /* nigeria@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nigeria@2x.png"; sourceTree = "<group>"; };
 		ABF1840128DDD42000A64120 /* nigeria@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nigeria@3x.png"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		AB0D1A1628DDCB58000701A1 /* Milestone1-Projects1-3 */ = {
 			isa = PBXGroup;
 			children = (
+				AB65D47128E1C63B00D70784 /* DetailViewController.swift */,
 				AB0D1A1728DDCB58000701A1 /* AppDelegate.swift */,
 				AB0D1A1928DDCB58000701A1 /* SceneDelegate.swift */,
 				AB0D1A1B28DDCB58000701A1 /* ViewController.swift */,
@@ -245,6 +248,7 @@
 				AB0D1A1C28DDCB58000701A1 /* ViewController.swift in Sources */,
 				AB0D1A1828DDCB58000701A1 /* AppDelegate.swift in Sources */,
 				AB0D1A1A28DDCB58000701A1 /* SceneDelegate.swift in Sources */,
+				AB65D47228E1C63B00D70784 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
